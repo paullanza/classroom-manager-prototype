@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyText
+  question_type: MyString
+  choices: MyText
+  answer: MyText
+  rubric: MyText
+  worksheet: one
+
+two:
+  content: MyText
+  question_type: MyString
+  choices: MyText
+  answer: MyText
+  rubric: MyText
+  worksheet: two

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Student enrollment codes</h1>
+
+<div id="student_enrollment_codes">
+  <% @student_enrollment_codes.each do |student_enrollment_code| %>
+    <%= render student_enrollment_code %>
+    <p>
+      <%= link_to "Show this student enrollment code", student_enrollment_code %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New student enrollment code", new_student_enrollment_code_path %>
